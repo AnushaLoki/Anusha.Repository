@@ -11,8 +11,6 @@ public class Alerthandling {
 	  
 	 WebDriver driver;
 	 
-	 
-	 
 	 driver = new ChromeDriver();
 	 driver.get("https://demoqa.com/alerts");
 	 driver.manage().window().maximize();
