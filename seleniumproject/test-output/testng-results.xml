@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-12T13:07:40 GMT" name="Default suite" finished-at="2025-03-12T13:07:44 GMT" duration-ms="3763">
+  <suite started-at="2025-03-19T12:23:09 GMT" name="Default suite" finished-at="2025-03-19T12:23:32 GMT" duration-ms="22452">
     <groups>
     </groups>
-    <test started-at="2025-03-12T13:07:40 GMT" name="Default test" finished-at="2025-03-12T13:07:44 GMT" duration-ms="3763">
-      <class name="com.TestNG.Test_1_Assignments">
-        <test-method signature="Test1()[pri:0, instance:com.TestNG.Test_1_Assignments@233795b6]" started-at="2025-03-12T13:07:40 GMT" name="Test1" finished-at="2025-03-12T13:07:44 GMT" duration-ms="3675" status="PASS">
+    <test started-at="2025-03-19T12:23:09 GMT" name="Default test" finished-at="2025-03-19T12:23:32 GMT" duration-ms="22452">
+      <class name="com.TestNG.Annotations">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.TestNG.Annotations@37ceb1df]" started-at="2025-03-19T12:23:09 GMT" name="beforeClass" finished-at="2025-03-19T12:23:17 GMT" duration-ms="8189" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-      </class> <!-- com.TestNG.Test_1_Assignments -->
+        </test-method> <!-- beforeClass -->
+        <test-method signature="f()[pri:0, instance:com.TestNG.Annotations@37ceb1df]" started-at="2025-03-19T12:23:17 GMT" name="f" finished-at="2025-03-19T12:23:31 GMT" duration-ms="13763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TestNG.Annotations@37ceb1df]" started-at="2025-03-19T12:23:31 GMT" name="afterClass" finished-at="2025-03-19T12:23:32 GMT" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.TestNG.Annotations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

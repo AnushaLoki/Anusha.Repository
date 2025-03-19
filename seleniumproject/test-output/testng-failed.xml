@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.Alerthandling">
+      <class name="com.TestNG.Annotations">
         <methods>
+          <include name="afterClass"/>
           <include name="f"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.TestNG.Alerthandling -->
+      </class> <!-- com.TestNG.Annotations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
